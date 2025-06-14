@@ -1,0 +1,15 @@
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai> cd C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge> git add .
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge> git commit -m "英　語で追記"
+[main a244eef] 英　語で追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge> git add .
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge> git commit -m "日本語で追記"
+[main 5b452e4] 日本語で追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge> git log --oneline
+5b452e4 (HEAD -> main) 日本語で追記
+a244eef 英　語で追記
+PS C:\Users\yukih\Desktop\Git\bootstrap-basic-kadai\git_challenge> 
